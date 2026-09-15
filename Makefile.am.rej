@@ -1,0 +1,18 @@
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -90,6 +90,7 @@ EXTRA_PROGRAMS = \
+   od		\
+   paste		\
+   pathchk	\
++  physmem	\
+   pr		\
+   printenv	\
+   printf	\
+@@ -198,6 +199,7 @@ chroot_LDADD = $(LDADD)
+ cksum_LDADD = $(LDADD)
+ comm_LDADD = $(LDADD)
+ nproc_LDADD = $(LDADD)
++physmem_LDADD = $(LDADD)
+ cp_LDADD = $(LDADD)
+ csplit_LDADD = $(LDADD)
+ cut_LDADD = $(LDADD)
