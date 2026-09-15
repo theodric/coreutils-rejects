@@ -1,0 +1,2 @@
+# coreutils-rejects
+Rejected coreutils
